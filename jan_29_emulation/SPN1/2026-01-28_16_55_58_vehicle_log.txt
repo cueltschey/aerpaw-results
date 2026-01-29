@@ -1,0 +1,17 @@
+[2026-01-28 16:56:00.171606] Reading .plan file...
+[2026-01-28 16:56:00.173562] Building CommandSequence...
+[2026-01-28 16:56:00.175083] Uploading .plan file...
+[2026-01-28 16:56:01.377776] .plan file uploaded!
+[2026-01-28 16:56:02.380370] Taking off to 25m
+[2026-01-28 16:56:02.382684] [aerpawlib] Guided command attempted. Waiting for safety pilot to arm
+[2026-01-28 16:56:49.670820] Waypoint 1
+[2026-01-28 16:57:02.746193] Waypoint 2
+[2026-01-28 16:57:26.407058] Waypoint 3
+[2026-01-28 16:57:50.011824] Waypoint 4
+[2026-01-28 16:58:17.769751] Waypoint 5
+[2026-01-28 16:58:28.217627] Waypoint 6
+[2026-01-28 16:58:38.429477] Waypoint 7
+[2026-01-28 16:59:16.324267] Waypoint 8
+[2026-01-28 16:59:54.238376] Waypoint 9
+[2026-01-28 17:00:48.322467] done!
+[2026-01-28 17:00:48.348283] [aerpawlib] Mission took 04:16 mm:ss

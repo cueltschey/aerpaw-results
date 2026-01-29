@@ -1,0 +1,25 @@
+[2026-01-28 16:55:58.146147] [31m/opt/srsRAN/srsenb/src/enb_cfg_parser.cc:1885: Force DL freq for cell PCI=1 to 3409.999872 MHz[0m
+[2026-01-28 16:55:58.146207] [31m/opt/srsRAN/srsenb/src/enb_cfg_parser.cc:1889: Force UL freq for cell PCI=1 to 3320.000000 MHz[0m
+[2026-01-28 16:55:58.199614] [INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.HEAD-aerpaw
+[2026-01-28 16:55:58.199691] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-28 16:55:58.200436] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-28 16:55:58.702782] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-28 16:56:00.266372] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-28 16:56:00.266708] [INFO] [MULTI_USRP] Selecting default RX front end spec: Subdevice Specification:
+[2026-01-28 16:56:00.266733]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-28 16:56:00.266744] 
+[2026-01-28 16:56:00.282479] [INFO] [V-USRP-RX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:00.282720] [INFO] [MULTI_USRP] Selecting default TX front end spec: Subdevice Specification:
+[2026-01-28 16:56:00.282741]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-28 16:56:00.282757] 
+[2026-01-28 16:56:00.282928] [INFO] [V-USRP-TX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:01.117333] [INFO] [V-USRP]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:01.581662] [INFO] [V-USRP-RX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:01.582237] [INFO] [V-USRP-TX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:01.582607] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3409.999872 MHz is allowed for TX operation!
+[2026-01-28 16:56:01.600238] [INFO] [PORT-TX] Port is updated to 11001
+[2026-01-28 16:56:01.600308] [INFO] [PORT-TX] Port is updated to 11001
+[2026-01-28 16:56:01.601301] [INFO] [VUSRP-RX] Port is updated to 10001
+[2026-01-28 16:56:01.601618] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3320.000000 MHz is allowed for RX operation!
+[2026-01-28 16:56:01.609029] [INFO] [V-USRP]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 17:00:49.630950] connect(): Connection refused

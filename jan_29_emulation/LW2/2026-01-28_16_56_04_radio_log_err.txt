@@ -1,0 +1,23 @@
+[2026-01-28 16:56:04.804006] Failed to `mlockall`: 12[INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.HEAD-aerpaw
+[2026-01-28 16:56:04.804116] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-28 16:56:04.804469] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-28 16:56:05.306764] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-28 16:56:06.919084] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-28 16:56:06.919392] [INFO] [MULTI_USRP] Selecting default RX front end spec: Subdevice Specification:
+[2026-01-28 16:56:06.919413]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-28 16:56:06.919431] 
+[2026-01-28 16:56:06.925918] [INFO] [V-USRP-RX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:06.926273] [INFO] [MULTI_USRP] Selecting default TX front end spec: Subdevice Specification:
+[2026-01-28 16:56:06.926327]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-28 16:56:06.926349] 
+[2026-01-28 16:56:06.926504] [INFO] [V-USRP-TX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:07.834771] [INFO] [V-USRP]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:08.309572] [INFO] [V-USRP]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:08.413928] [INFO] [V-USRP-RX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:08.414501] [INFO] [V-USRP]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:08.414759] [INFO] [V-USRP-TX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:08.415234] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3409.999872 MHz is allowed for RX operation!
+[2026-01-28 16:56:08.421362] [INFO] [PORT-TX] Port is updated to 11003
+[2026-01-28 16:56:08.421452] [INFO] [PORT-TX] Port is updated to 11003
+[2026-01-28 16:56:08.422601] [INFO] [VUSRP-RX] Port is updated to 10003
+[2026-01-28 16:56:08.429299] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3320.000000 MHz is allowed for TX operation!

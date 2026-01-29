@@ -1,0 +1,25 @@
+[2026-01-28 16:56:03.418220] Failed to `mlockall`: 12[INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.HEAD-aerpaw
+[2026-01-28 16:56:03.418382] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-28 16:56:03.418874] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-28 16:56:03.921103] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-28 16:56:05.529230] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-28 16:56:05.529545] [INFO] [MULTI_USRP] Selecting default RX front end spec: Subdevice Specification:
+[2026-01-28 16:56:05.529565]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-28 16:56:05.529578] 
+[2026-01-28 16:56:05.539071] [INFO] [V-USRP-RX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:05.539335] [INFO] [MULTI_USRP] Selecting default TX front end spec: Subdevice Specification:
+[2026-01-28 16:56:05.539352]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-28 16:56:05.539366] 
+[2026-01-28 16:56:05.539476] [INFO] [V-USRP-TX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:06.386130] [INFO] [V-USRP]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:06.776774] [INFO] [V-USRP]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-28 16:56:06.880928] [INFO] [V-USRP-RX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:06.881367] [INFO] [V-USRP]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:06.881546] [INFO] [V-USRP-TX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-28 16:56:06.882050] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3409.999872 MHz is allowed for RX operation!
+[2026-01-28 16:56:06.885242] [INFO] [PORT-TX] Port is updated to 11002
+[2026-01-28 16:56:06.885289] [INFO] [PORT-TX] Port is updated to 11002
+[2026-01-28 16:56:06.886393] [INFO] [VUSRP-RX] Port is updated to 10002
+[2026-01-28 16:56:06.891736] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3320.000000 MHz is allowed for TX operation!
+[2026-01-28 16:58:36.970567] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:199: Invalid RBG subset=3 for nof_prb=50 where P=3[0m
+[2026-01-28 16:58:36.970685] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:641: Configuring resource allocation[0m
