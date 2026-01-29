@@ -1,0 +1,2 @@
+[2026-01-20 17:44:20.052208] mkdir: cannot create directory '/dev/net': File exists
+[2026-01-20 17:44:20.052273] mknod: /dev/net/tun: File exists

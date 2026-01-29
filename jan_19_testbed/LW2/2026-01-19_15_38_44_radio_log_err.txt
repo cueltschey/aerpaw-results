@@ -1,0 +1,23 @@
+[2026-01-19 15:38:44.582164] [INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.AERPAW_main-cb1b27ef
+[2026-01-19 15:38:44.582272] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-19 15:38:44.621201] [INFO] [CONFIG] PARSED THE CONFIG FILE
+[2026-01-19 15:38:45.130156] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-19 15:38:45.168802] [INFO] [B200] Detected Device: B210
+[2026-01-19 15:38:45.243726] [INFO] [B200] Operating over USB 3.
+[2026-01-19 15:38:45.265416] [INFO] [B200] Initialize CODEC control...
+[2026-01-19 15:38:45.533872] [INFO] [B200] Initialize Radio control...
+[2026-01-19 15:38:45.564161] [INFO] [B200] Performing register loopback test... 
+[2026-01-19 15:38:45.570973] [INFO] [B200] Register loopback test passed
+[2026-01-19 15:38:45.576055] [INFO] [B200] Performing register loopback test... 
+[2026-01-19 15:38:45.582364] [INFO] [B200] Register loopback test passed
+[2026-01-19 15:38:45.601079] [INFO] [B200] Asking for clock rate 23.040000 MHz... 
+[2026-01-19 15:38:45.854045] [INFO] [B200] Actually got clock rate 23.040000 MHz.
+[2026-01-19 15:38:46.829663] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for RX operation!
+[2026-01-19 15:38:47.006607] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for TX operation!
+[2026-01-19 15:39:04.124304] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:641: Configuring resource allocation[0m
+[2026-01-19 15:39:15.721984] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:199: Invalid RBG subset=3 for nof_prb=50 where P=3[0m
+[2026-01-19 15:39:15.722029] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:641: Configuring resource allocation[0m
+[2026-01-19 15:42:23.534445] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:199: Invalid RBG subset=3 for nof_prb=50 where P=3[0m
+[2026-01-19 15:42:23.534500] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:641: Configuring resource allocation[0m
+[2026-01-19 15:42:42.380585] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:199: Invalid RBG subset=3 for nof_prb=50 where P=3[0m
+[2026-01-19 15:42:42.380637] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:641: Configuring resource allocation[0m

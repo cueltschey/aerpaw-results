@@ -1,0 +1,16 @@
+[2026-01-19 14:42:14.518485] [INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.AERPAW_main-cb1b27ef
+[2026-01-19 14:42:14.518597] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-19 14:42:14.559032] [INFO] [CONFIG] PARSED THE CONFIG FILE
+[2026-01-19 14:42:15.067729] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-19 14:42:15.106928] [INFO] [B200] Detected Device: B210
+[2026-01-19 14:42:15.181845] [INFO] [B200] Operating over USB 3.
+[2026-01-19 14:42:15.203913] [INFO] [B200] Initialize CODEC control...
+[2026-01-19 14:42:15.470500] [INFO] [B200] Initialize Radio control...
+[2026-01-19 14:42:15.500890] [INFO] [B200] Performing register loopback test... 
+[2026-01-19 14:42:15.506889] [INFO] [B200] Register loopback test passed
+[2026-01-19 14:42:15.512082] [INFO] [B200] Performing register loopback test... 
+[2026-01-19 14:42:15.517599] [INFO] [B200] Register loopback test passed
+[2026-01-19 14:42:15.536636] [INFO] [B200] Asking for clock rate 23.040000 MHz... 
+[2026-01-19 14:42:15.789973] [INFO] [B200] Actually got clock rate 23.040000 MHz.
+[2026-01-19 14:42:16.582085] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for RX operation!
+[2026-01-19 14:42:16.754891] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for TX operation!

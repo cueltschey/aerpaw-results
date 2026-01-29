@@ -1,0 +1,18 @@
+[2026-01-19 14:42:15.010739] [31m/opt/srsRAN/srsenb/src/enb_cfg_parser.cc:1885: Force DL freq for cell PCI=1 to 3409.999872 MHz[0m
+[2026-01-19 14:42:15.010867] [31m/opt/srsRAN/srsenb/src/enb_cfg_parser.cc:1889: Force UL freq for cell PCI=1 to 3320.000000 MHz[0m
+[2026-01-19 14:42:15.132356] [INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.AERPAW_main-cb1b27ef
+[2026-01-19 14:42:15.132406] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-19 14:42:15.187946] [INFO] [CONFIG] PARSED THE CONFIG FILE
+[2026-01-19 14:42:20.445450] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-19 14:42:20.462374] [INFO] [CONFIG] PARSED THE CONFIG FILE
+[2026-01-19 14:42:20.474689] [INFO] [B200] Detected Device: B205mini
+[2026-01-19 14:42:20.537040] [INFO] [B200] Loading FPGA image: /usr/local/share/uhd/images/usrp_b205mini_fpga.bin...
+[2026-01-19 14:42:28.752718] [INFO] [B200] Operating over USB 3.
+[2026-01-19 14:42:28.773653] [INFO] [B200] Initialize CODEC control...
+[2026-01-19 14:42:29.038315] [INFO] [B200] Initialize Radio control...
+[2026-01-19 14:42:29.066797] [INFO] [B200] Performing register loopback test... 
+[2026-01-19 14:42:29.070870] [INFO] [B200] Register loopback test passed
+[2026-01-19 14:42:29.080814] [INFO] [B200] Asking for clock rate 23.040000 MHz... 
+[2026-01-19 14:42:29.336126] [INFO] [B200] Actually got clock rate 23.040000 MHz.
+[2026-01-19 14:42:30.014080] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for TX operation!
+[2026-01-19 14:42:30.038276] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for RX operation!

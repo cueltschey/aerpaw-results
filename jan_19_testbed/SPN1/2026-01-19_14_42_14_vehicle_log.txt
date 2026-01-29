@@ -1,0 +1,18 @@
+[2026-01-19 14:42:21.268434] Reading .plan file...
+[2026-01-19 14:42:21.268516] [aerpawlib] INFO: the user script has attempted to use AERPAW platform functionality without being in the AERPAW environment
+[2026-01-19 14:42:21.269390] Building CommandSequence...
+[2026-01-19 14:42:21.269553] Uploading .plan file...
+[2026-01-19 14:42:22.371101] .plan file uploaded!
+[2026-01-19 14:42:23.372334] Taking off to 25m
+[2026-01-19 14:42:23.372372] [aerpawlib] Guided command attempted. Waiting for safety pilot to arm
+[2026-01-19 14:44:04.469655] Waypoint 1
+[2026-01-19 14:44:17.229964] Waypoint 2
+[2026-01-19 14:44:40.984516] Waypoint 3
+[2026-01-19 14:45:04.733479] Waypoint 4
+[2026-01-19 14:45:31.730120] Waypoint 5
+[2026-01-19 14:45:42.227843] Waypoint 6
+[2026-01-19 14:45:52.480593] Waypoint 7
+[2026-01-19 14:46:30.480540] Waypoint 8
+[2026-01-19 14:47:08.477942] Waypoint 9
+[2026-01-19 14:48:00.722297] done!
+[2026-01-19 14:48:00.732747] [aerpawlib] Mission took 04:13 mm:ss

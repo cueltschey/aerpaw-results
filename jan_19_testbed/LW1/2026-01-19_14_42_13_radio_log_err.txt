@@ -1,0 +1,20 @@
+[2026-01-19 14:42:14.166221] [INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.AERPAW_main-cb1b27ef
+[2026-01-19 14:42:14.166332] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-19 14:42:14.208634] [INFO] [CONFIG] PARSED THE CONFIG FILE
+[2026-01-19 14:42:14.717145] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-19 14:42:14.744459] [INFO] [CONFIG] PARSED THE CONFIG FILE
+[2026-01-19 14:42:14.756338] [INFO] [B200] Detected Device: B210
+[2026-01-19 14:42:14.831425] [INFO] [B200] Operating over USB 3.
+[2026-01-19 14:42:14.852973] [INFO] [B200] Initialize CODEC control...
+[2026-01-19 14:42:15.119950] [INFO] [B200] Initialize Radio control...
+[2026-01-19 14:42:15.150283] [INFO] [B200] Performing register loopback test... 
+[2026-01-19 14:42:15.156744] [INFO] [B200] Register loopback test passed
+[2026-01-19 14:42:15.161999] [INFO] [B200] Performing register loopback test... 
+[2026-01-19 14:42:15.168043] [INFO] [B200] Register loopback test passed
+[2026-01-19 14:42:15.185913] [INFO] [B200] Asking for clock rate 23.040000 MHz... 
+[2026-01-19 14:42:15.443601] [INFO] [B200] Actually got clock rate 23.040000 MHz.
+[2026-01-19 14:42:16.244071] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for RX operation!
+[2026-01-19 14:42:16.416422] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency is allowed for TX operation!
+[2026-01-19 14:44:18.527505] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:199: Invalid RBG subset=3 for nof_prb=50 where P=3[0m
+[2026-01-19 14:44:18.527556] [31m/opt/srsRAN/lib/src/phy/phch/ra_dl.c:641: Configuring resource allocation[0m
+[2026-01-19 14:47:58.409188] [INFO] [UHD RF] Tx while waiting for EOB, timed out... 343.481 >= 180.493. Starting new burst...
