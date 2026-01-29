@@ -1,0 +1,664 @@
+[2026-01-29 13:43:06.353249] Active RF plugins: libsrsran_rf_uhd.so libsrsran_rf_soapy.so libsrsran_rf_zmq.so
+[2026-01-29 13:43:06.353367] Inactive RF plugins: 
+[2026-01-29 13:43:06.353381] Couldn't open , trying /root/.config/srsran/ue.conf
+[2026-01-29 13:43:06.353392] Reading configuration file /root/.config/srsran/ue.conf...
+[2026-01-29 13:43:06.355753] 
+[2026-01-29 13:43:06.355789] Built in Release mode using commit 7223b6a on branch master.
+[2026-01-29 13:43:06.355834] 
+[2026-01-29 13:43:06.398122] Opening 1 channels in RF device=default with args=default
+[2026-01-29 13:43:06.398202] Supported RF device list: UHD soapy zmq file
+[2026-01-29 13:43:06.398214] Trying to open RF device 'UHD'
+[2026-01-29 13:43:06.900787] Opening USRP channels=1, args: 
+[2026-01-29 13:43:09.365016] RF device 'UHD' successfully opened
+[2026-01-29 13:43:09.739748] Waiting PHY to initialize ... done!
+[2026-01-29 13:43:09.739898] Attaching UE...
+[2026-01-29 13:43:09.739926] Enter t to stop trace.
+[2026-01-29 13:43:09.739942] Closing stdin thread.
+[2026-01-29 13:43:09.740072] --- disconnected ---
+[2026-01-29 13:43:09.969477] .
+[2026-01-29 13:43:09.987319] Found Cell:  Mode=FDD, PCI=1, PRB=50, Ports=1, CP=Normal, CFO=0.1 KHz
+[2026-01-29 13:43:10.053272] Found PLMN:  Id=00101, TAC=7
+[2026-01-29 13:43:10.125044] Random Access Transmission: seq=44, tti=3541, ra-rnti=0x2
+[2026-01-29 13:43:10.145858] RRC Connected
+[2026-01-29 13:43:10.146336] Random Access Complete.     c-rnti=0x46, ta=0
+[2026-01-29 13:43:10.282504] Network attach successful. IP: 172.16.0.2
+[2026-01-29 13:43:10.482963] Software Radio Systems RAN (srsRAN) 29/1/2026 18:43:10 TZ:0
+[2026-01-29 13:43:10.740174] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:43:10.740244]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:43:10.740358]   0    1   -83   83   3.3 |   1    5   1.0   4.2k    0%    0.0 |   1    0.0    14k   12%
+[2026-01-29 13:43:11.740133]   0    1   -83   83  -9.0 |   0    5   0.0    0.0    0%    0.0 |   1    0.0   1.5k    0%
+[2026-01-29 13:43:12.740107]   0    1   -85   85   -29 |   0    5   1.0   8.6k    0%    0.0 |   3   380k   155k   18%
+[2026-01-29 13:43:13.740420]   0    1   -85   85  -3.8 |   3    5   1.2   6.9k    0%    0.0 |   0   380k   1.0M    2%
+[2026-01-29 13:43:14.740582]   0    1   -86   86  -6.5 |   0    4   1.0   2.3k    0%    0.0 |   1   380k   802k   13%
+[2026-01-29 13:43:15.342667] Warning: Detected Radio-Link Failure
+[2026-01-29 13:43:15.358022] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:43:15.364351] Random Access Transmission: seq=45, tti=8781, ra-rnti=0x2
+[2026-01-29 13:43:15.386068] Reestablishment OK
+[2026-01-29 13:43:15.386161] RRC Connected
+[2026-01-29 13:43:15.386182] Random Access Complete.     c-rnti=0x48, ta=0
+[2026-01-29 13:43:15.740322]   0    1   -87   87    14 |   1    3   1.0   3.5k    0%    0.0 |   1   380k   498k   30%
+[2026-01-29 13:43:16.740389]   0    1   -88   88   8.2 |   6    4   1.4    948    5%    0.0 |   3   379k   523k   34%
+[2026-01-29 13:43:17.740271]   0    1   -88   88    20 |   0    4   1.0   1.2k    0%    0.0 |   2   380k   342k   36%
+[2026-01-29 13:43:18.742509]   0    1   -87   87   9.2 |   0    4   1.0   1.2k    0%    0.0 |   1   380k   405k   36%
+[2026-01-29 13:43:19.740652]   0    1   -88   88    19 |   0    4   1.0    727    0%    0.0 |   1   379k   400k   29%
+[2026-01-29 13:43:20.740360]   0    1   -86   86    11 |   0    4   1.0   1.3k    0%    0.0 |   1   379k   520k   28%
+[2026-01-29 13:43:21.740276] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:43:21.740567]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:43:21.740595]   0    1   -87   87  -8.3 |   0    4   1.0    279    0%    0.0 |   1   380k   458k   27%
+[2026-01-29 13:43:22.740621]   0    1   -87   87  -1.9 |   0    4   1.0   1.0k    0%    0.0 |   1   380k   439k   32%
+[2026-01-29 13:43:22.968228] Warning: Detected Radio-Link Failure
+[2026-01-29 13:43:22.987675] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:43:22.994743] Random Access Transmission: seq=8, tti=6171, ra-rnti=0x2
+[2026-01-29 13:43:23.016142] Reestablishment OK
+[2026-01-29 13:43:23.016230] RRC Connected
+[2026-01-29 13:43:23.016251] Random Access Complete.     c-rnti=0x49, ta=0
+[2026-01-29 13:43:23.740353]   0    1   -87   87    60 |   0    4   1.0   3.3k    0%    0.0 |   2   380k   472k   29%
+[2026-01-29 13:43:24.740421]   0    1   -87   87   2.1 |   0    4   0.0    0.0    0%    0.0 |   3   380k   466k   30%
+[2026-01-29 13:43:25.742176]   0    1   -89   89    55 |   0    4   1.0    944    0%    0.0 |   1   380k   361k   34%
+[2026-01-29 13:43:26.740297]   0    1   -87   87   4.6 |   0    4   1.0    168    0%    0.0 |   1   379k   480k   28%
+[2026-01-29 13:43:27.740273]   0    1   -87   87  -5.9 |   0    4   1.0   1.4k    0%    0.0 |   1   380k   407k   30%
+[2026-01-29 13:43:28.740277]   0    1   -88   88  -3.7 |   0    4   1.0    781    0%    0.0 |   1   380k   433k   31%
+[2026-01-29 13:43:29.740847]   0    1   -87   87   7.8 |   0    4   1.0    892    0%    0.0 |   1   380k   437k   35%
+[2026-01-29 13:43:30.014881] Warning: Detected Radio-Link Failure
+[2026-01-29 13:43:30.043679] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:43:30.050686] Random Access Transmission: seq=43, tti=2941, ra-rnti=0x2
+[2026-01-29 13:43:30.103116] Random Access Transmission: seq=37, tti=2991, ra-rnti=0x2
+[2026-01-29 13:43:30.143890] Timer T301 expired: Going to RRC IDLE
+[2026-01-29 13:43:30.143989] RRC IDLE
+[2026-01-29 13:43:30.144441] Service Request with cause mo-Data.
+[2026-01-29 13:43:30.150616] Random Access Transmission: seq=17, tti=3041, ra-rnti=0x2
+[2026-01-29 13:43:30.171103] Random Access Transmission: seq=19, tti=3061, ra-rnti=0x2
+[2026-01-29 13:43:30.220694] Random Access Transmission: seq=44, tti=3111, ra-rnti=0x2
+[2026-01-29 13:43:30.270666] Random Access Transmission: seq=27, tti=3161, ra-rnti=0x2
+[2026-01-29 13:43:30.290904] Random Access Transmission: seq=49, tti=3181, ra-rnti=0x2
+[2026-01-29 13:43:30.340485] Random Access Transmission: seq=11, tti=3231, ra-rnti=0x2
+[2026-01-29 13:43:30.374296] RRC Connected
+[2026-01-29 13:43:30.374828] Random Access Complete.     c-rnti=0x55, ta=42
+[2026-01-29 13:43:30.374883] Service Request successful.
+[2026-01-29 13:43:30.740323]   0    1   -85   85    72 |   0    4   1.0    13k    0%   21.9 |  22   379k   7.9k   51%
+[2026-01-29 13:43:31.740283]   0    1   -86   86   2.4 |   0    5   0.0    0.0    0%   21.9 |   0   379k    0.0    0%
+[2026-01-29 13:43:31.804785] Scheduling request failed: releasing RRC connection...
+[2026-01-29 13:43:31.810703] Random Access Transmission: seq=16, tti=4701, ra-rnti=0x2
+[2026-01-29 13:43:31.831252] Random Access Complete.     c-rnti=0x55, ta=0
+[2026-01-29 13:43:31.851257] Random Access Transmission: seq=51, tti=4741, ra-rnti=0x2
+[2026-01-29 13:43:31.863355] Random Access Complete.     c-rnti=0x55, ta=0
+[2026-01-29 13:43:32.740485] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:43:32.740745]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:43:32.740761]   0    1   -86   86   5.7 |   0    5   1.0   1.6k    0%    0.0 |   8   379k    66k   18%
+[2026-01-29 13:43:33.740364]   0    1   -87   87    31 |   9    4   4.0    0.0  100%    0.0 |   3   380k   5.6k   17%
+[2026-01-29 13:43:34.723322] Received RRC Connection Release (releaseCause: other)
+[2026-01-29 13:43:34.740354]   0    1   -88   88    23 |   0    4   1.0    151    0%    0.0 |   9   379k   4.4k   33%
+[2026-01-29 13:43:34.782939] RRC IDLE
+[2026-01-29 13:43:34.783956] Service Request with cause mo-Data.
+[2026-01-29 13:43:34.821265] Random Access Transmission: seq=16, tti=7711, ra-rnti=0x2
+[2026-01-29 13:43:34.844260] RRC Connected
+[2026-01-29 13:43:34.844821] Random Access Complete.     c-rnti=0x5c, ta=0
+[2026-01-29 13:43:34.847195] Service Request successful.
+[2026-01-29 13:43:35.742288]   0    1   -87   87  -6.1 |   0    4   1.0   2.7k    0%    0.0 |   1   380k   349k   29%
+[2026-01-29 13:43:36.740826]   0    1   -88   88    33 |   0    4   1.0    671    0%    0.0 |   2   380k   423k   31%
+[2026-01-29 13:43:37.740692]   0    1   -88   88    84 |   0    3   0.0    0.0    0%    0.0 |   2   380k   596k   18%
+[2026-01-29 13:43:38.740345]   0    1   -87   87    53 |   0    3   1.0    223    0%    0.0 |   1   379k   615k   15%
+[2026-01-29 13:43:39.742135]   0    1   -89   89    32 |   0    3   1.0    446    0%    2.6 |   1   378k   475k   26%
+[2026-01-29 13:43:40.740290]   0    1   -88   88    51 |   0    3   1.0    112    0%    9.4 |   0   378k    0.0  100%
+[2026-01-29 13:43:41.324610] Scheduling request failed: releasing RRC connection...
+[2026-01-29 13:43:41.330314] Random Access Transmission: seq=22, tti=3981, ra-rnti=0x2
+[2026-01-29 13:43:41.410729] Random Access Transmission: seq=8, tti=4061, ra-rnti=0x2
+[2026-01-29 13:43:41.510622] Random Access Transmission: seq=49, tti=4161, ra-rnti=0x2
+[2026-01-29 13:43:41.590764] Random Access Transmission: seq=48, tti=4241, ra-rnti=0x2
+[2026-01-29 13:43:41.670530] Random Access Transmission: seq=19, tti=4321, ra-rnti=0x2
+[2026-01-29 13:43:41.740668]   0    1   -87   87    25 |   1    3   1.0    0.0    0%    0.0 |   0   378k    280   16%
+[2026-01-29 13:43:41.750227] Random Access Transmission: seq=51, tti=4401, ra-rnti=0x2
+[2026-01-29 13:43:41.770327] Random Access Transmission: seq=35, tti=4421, ra-rnti=0x2
+[2026-01-29 13:43:41.790318] Random Access Transmission: seq=26, tti=4441, ra-rnti=0x2
+[2026-01-29 13:43:41.810708] Random Access Transmission: seq=39, tti=4461, ra-rnti=0x2
+[2026-01-29 13:43:41.890809] Random Access Transmission: seq=12, tti=4541, ra-rnti=0x2
+[2026-01-29 13:43:41.965637] Warning: Detected Radio-Link Failure
+[2026-01-29 13:43:41.965715] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:43:41.970614] Random Access Transmission: seq=44, tti=4621, ra-rnti=0x2
+[2026-01-29 13:43:42.000186] Reestablishment OK
+[2026-01-29 13:43:42.000302] RRC Connected
+[2026-01-29 13:43:42.000320] Random Access Complete.     c-rnti=0x68, ta=0
+[2026-01-29 13:43:42.740311]   0    1   -87   87    22 |   1    3   1.0   6.5k    0%    0.0 |   3   380k   719k   17%
+[2026-01-29 13:43:43.741585] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:43:43.741696]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:43:43.741716]   0    1   -88   88   9.9 |   0    3   1.0   1.0k    0%    0.0 |   1   379k   519k   24%
+[2026-01-29 13:43:44.740531]   0    1   -89   89  -9.3 |   0    3   1.0    558    0%    0.0 |   7   378k   460k   25%
+[2026-01-29 13:43:45.740771]   0    1   -88   88    21 |   0    3   0.0    0.0    0%    0.0 |   3   378k   619k   17%
+[2026-01-29 13:43:46.740552]   0    1   -87   87    42 |   0    4   1.0    502    0%    0.0 |   1   378k   600k   15%
+[2026-01-29 13:43:47.740427]   0    1   -87   87  -8.0 |   0    4   1.0    279    0%    0.0 |   0   377k   626k   15%
+[2026-01-29 13:43:48.740515]   0    1   -88   88    17 |   0    4   1.0    334    0%    0.0 |   2   376k   646k   15%
+[2026-01-29 13:43:49.741109]   0    1   -87   87    35 |   0    4   1.0   1.3k    0%    0.0 |   4   379k   652k   13%
+[2026-01-29 13:43:50.740513]   0    1   -87   87  -1.9 |   0    4   1.0   1.1k    0%    0.0 |   1   378k   612k   17%
+[2026-01-29 13:43:51.741032]   0    1   -87   87   6.3 |   0    4   1.0    447    0%    0.0 |   1   378k   659k   13%
+[2026-01-29 13:43:52.740519]   0    1   -87   87    14 |   0    4   1.0   1.6k    0%    0.0 |   0   377k   614k   16%
+[2026-01-29 13:43:53.740216]   0    1   -88   88   3.8 |   0    4   1.0   2.1k    0%    0.0 |   4   379k   553k   19%
+[2026-01-29 13:43:54.740651] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:43:54.740739]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:43:54.740756]   0    1   -87   87    54 |   0    4   1.0    837    0%    0.0 |   1   380k   486k   21%
+[2026-01-29 13:43:55.740387]   0    1   -87   87    65 |   0    3   1.0    223    0%    0.0 |   3   379k   409k   15%
+[2026-01-29 13:43:55.786653] Warning: Detected Radio-Link Failure
+[2026-01-29 13:43:55.813370] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:43:55.820621] Random Access Transmission: seq=48, tti=8231, ra-rnti=0x2
+[2026-01-29 13:43:55.842741] Reestablishment OK
+[2026-01-29 13:43:55.843170] RRC Connected
+[2026-01-29 13:43:55.843228] Random Access Complete.     c-rnti=0x69, ta=0
+[2026-01-29 13:43:56.313691] Warning: Detected Radio-Link Failure
+[2026-01-29 13:43:56.333637] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:43:56.341065] Random Access Transmission: seq=7, tti=8751, ra-rnti=0x2
+[2026-01-29 13:43:56.370088] Reestablishment OK
+[2026-01-29 13:43:56.370186] RRC Connected
+[2026-01-29 13:43:56.370215] Random Access Complete.     c-rnti=0x6a, ta=0
+[2026-01-29 13:43:56.740173]   0    1   -86   86    21 |   1    3   1.2   4.8k    0%    0.0 |   3   380k   532k   21%
+[2026-01-29 13:43:57.740231]   0    1   -88   88    16 |   0    4   1.0    335    0%    0.0 |   1   380k   610k   16%
+[2026-01-29 13:43:58.740668]   0    1   -88   88    53 |   0    4   0.0    0.0    0%    0.0 |   6   379k   552k   17%
+[2026-01-29 13:43:59.740615]   0    1   -87   87    16 |   0    4   1.0    558    0%    0.0 |   1   379k   558k   16%
+[2026-01-29 13:44:00.740293]   0    1   -87   87    16 |   0    4   1.0    223    0%    0.0 |   1   379k   577k   19%
+[2026-01-29 13:44:01.740508]   0    1   -87   87 -969u |   0    4   1.0    334    0%    0.0 |   1   380k   627k   12%
+[2026-01-29 13:44:02.740472]   0    1   -87   87    21 |   0    4   0.0    0.0    0%    0.0 |   1   379k   592k   16%
+[2026-01-29 13:44:03.740303]   0    1   -86   86   8.9 |   0    4   1.0    726    0%    0.0 |   0   376k   657k   13%
+[2026-01-29 13:44:04.740412]   0    1   -87   87   8.8 |   0    4   1.0    783    0%    0.0 |   0   377k   559k   18%
+[2026-01-29 13:44:05.742733] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:44:05.742872]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:44:05.742897]   0    1   -88   88    34 |   0    4   1.0    612    0%    0.0 |   0   376k   491k   21%
+[2026-01-29 13:44:06.740250]   0    1   -87   87    13 |   0    4   1.0    558    0%    0.0 |   0   376k   610k   15%
+[2026-01-29 13:44:07.740227]   0    1   -88   88    22 |   0    4   1.0   1.3k    0%    1.0 |   1   375k   551k   16%
+[2026-01-29 13:44:08.740205]   0    1   -87   87 -10.0 |   7    5   1.7   5.6k    5%    0.0 |   0   378k   507k   17%
+[2026-01-29 13:44:09.743204]   0    1   -88   88    13 |   0    4   1.0    446    0%    0.0 |   2   377k   516k   15%
+[2026-01-29 13:44:10.740250]   0    1   -86   86    10 |   0    5   1.0   1.3k    0%    0.0 |   0   378k   567k   15%
+[2026-01-29 13:44:11.741109]   0    1   -86   86 -992m |   0    5   1.0    447    0%    0.0 |   1   376k   566k   19%
+[2026-01-29 13:44:12.740505]   0    1   -87   87  -9.5 |   0    5   1.0    614    0%    0.0 |   1   377k   608k   12%
+[2026-01-29 13:44:13.716018] Warning: Detected Radio-Link Failure
+[2026-01-29 13:44:13.733858] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:44:13.740265]   0    1   -88   88   -12 |   0    4   1.0    0.0    0%    0.0 |   1    6.0    0.0    0%
+[2026-01-29 13:44:13.740381] Random Access Transmission: seq=35, tti=5671, ra-rnti=0x2
+[2026-01-29 13:44:13.760056] Random Access Transmission: seq=0, tti=5691, ra-rnti=0x2
+[2026-01-29 13:44:13.774492] Selected cell no longer suitable: Going to RRC IDLE
+[2026-01-29 13:44:13.775538] RRC IDLE
+[2026-01-29 13:44:13.775994] Service Request with cause mo-Data.
+[2026-01-29 13:44:13.820749] Random Access Transmission: seq=4, tti=5751, ra-rnti=0x2
+[2026-01-29 13:44:13.842014] RRC Connected
+[2026-01-29 13:44:13.842660] Random Access Complete.     c-rnti=0x6e, ta=0
+[2026-01-29 13:44:13.842801] Service Request successful.
+[2026-01-29 13:44:14.740904]   0    1   -84   84  -3.1 |   1    5   1.0   2.1k    0%    0.0 |   4   379k   678k   22%
+[2026-01-29 13:44:15.740974]   0    1   -85   85  -5.0 |   0    5   1.0   1.2k    0%    0.0 |   1   377k   700k   18%
+[2026-01-29 13:44:16.740879] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:44:16.740976]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:44:16.740996]   0    1   -86   86   5.8 |   0    5   1.0    893    0%    0.0 |   3   376k   639k   11%
+[2026-01-29 13:44:17.741084]   0    1   -86   86    23 |  15    5   3.2    837   50%    0.0 |   1   379k   679k   14%
+[2026-01-29 13:44:18.741609]   0    1   -85   85    17 |   0    5   1.0    223    0%    0.0 |   1   377k   687k   15%
+[2026-01-29 13:44:19.740344]   0    1   -86   86   8.7 |   4    5   1.0   1.8k    0%    0.0 |   0   380k   608k   11%
+[2026-01-29 13:44:20.741537]   0    1   -85   85    47 |   9    5   2.2    390   12%    0.0 |   1   380k   669k    9%
+[2026-01-29 13:44:21.740426]   0    1   -85   85    10 |   0    5   1.0   1.0k    0%    0.0 |   5   379k   645k   14%
+[2026-01-29 13:44:22.740811]   0    1   -88   88    27 |   0    5   1.0    781    0%    0.0 |   1   379k   648k   14%
+[2026-01-29 13:44:23.740425]   0    1   -85   85   85m |   0    5   1.0    391    0%    0.0 |   1   379k   726k   15%
+[2026-01-29 13:44:24.740535]   0    1   -84   84    41 |   0    6   1.0    112    0%    0.0 |   1   379k   906k    7%
+[2026-01-29 13:44:25.740427]   0    1   -87   87   -39 |   0    4   1.0    835    0%    0.0 |   1   379k   495k   14%
+[2026-01-29 13:44:25.747176] Warning: Detected Radio-Link Failure
+[2026-01-29 13:44:25.813387] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:44:25.820469] Random Access Transmission: seq=18, tti=7511, ra-rnti=0x2
+[2026-01-29 13:44:25.850139] Reestablishment OK
+[2026-01-29 13:44:25.850353] RRC Connected
+[2026-01-29 13:44:25.850383] Random Access Complete.     c-rnti=0x7b, ta=0
+[2026-01-29 13:44:26.740382]   0    1   -86   86   9.2 |   1    6   1.2   1.5k    7%    0.0 |   6   379k   1.1M   19%
+[2026-01-29 13:44:27.740347] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:44:27.740441]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:44:27.740471]   0    1   -86   86   -17 |   0    6   1.0    335    0%    0.0 |   1   378k   599k   19%
+[2026-01-29 13:44:28.007036] Warning: Detected Radio-Link Failure
+[2026-01-29 13:44:28.023495] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:44:28.030132] Random Access Transmission: seq=44, tti=9721, ra-rnti=0x2
+[2026-01-29 13:44:28.051916] Reestablishment OK
+[2026-01-29 13:44:28.052007] RRC Connected
+[2026-01-29 13:44:28.052025] Random Access Complete.     c-rnti=0x7e, ta=0
+[2026-01-29 13:44:28.740640]   0    1   -84   84    23 |   1    5   1.0   2.4k    0%    0.0 |   8   378k   1.3M   26%
+[2026-01-29 13:44:29.741684]   0    1   -85   85   1.9 |   0    6   1.0    334    0%    0.0 |   3   378k   1.1M   11%
+[2026-01-29 13:44:30.740892]   0    1   -86   86   6.6 |   0    6   1.0   1.1k    0%    0.0 |   2   377k   755k   20%
+[2026-01-29 13:44:31.740329]   0    1   -85   85    20 |   3    6   1.0   1.1k    0%    0.0 |   3   377k   1.1M   14%
+[2026-01-29 13:44:32.740133]   0    1   -84   84   5.3 |   0    7   1.0    613    0%    0.0 |   2   377k   1.1M    9%
+[2026-01-29 13:44:33.740397]   0    1   -84   84    30 |   1    6   1.0   2.0k    0%    1.0 |   5   379k   1.3M   16%
+[2026-01-29 13:44:34.740394]   0    1   -84   84    12 |   0    7   1.0    838    0%    0.0 |   5   380k   1.5M   13%
+[2026-01-29 13:44:35.740644]   0    1   -85   85    10 |   0    6   1.0    167    0%    0.0 |   4   380k   1.2M   15%
+[2026-01-29 13:44:36.740317]   0    1   -83   83   -13 |   0    7   1.0    501    0%    0.0 |   6   378k   1.5M   12%
+[2026-01-29 13:44:37.740408]   0    1   -84   84    20 |   0    7   1.0    111    0%    0.0 |   5   378k   1.6M   13%
+[2026-01-29 13:44:38.740151] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:44:38.740377]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:44:38.740394]   0    1   -84   84    12 |   3    7   1.0   1.0k    0%    0.0 |   5   380k   1.5M   11%
+[2026-01-29 13:44:39.740555]   0    1   -83   83  -3.0 |   0    7   1.0     56    0%    0.0 |   6   379k   1.8M   10%
+[2026-01-29 13:44:40.741559]   0    1   -83   83   6.4 |   0    8   1.0    279    0%    0.0 |   7   380k   1.7M   11%
+[2026-01-29 13:44:41.740519]   0    1   -82   82   9.1 |   0    8   0.0    0.0    0%    0.0 |   8   378k   1.7M   13%
+[2026-01-29 13:44:42.740416]   0    1   -84   84   4.9 |   5    7   1.0    940    0%    0.0 |   7   379k   1.5M   13%
+[2026-01-29 13:44:43.740545]   0    1   -85   85 -10.0 |   0    7   1.0    112    0%    0.0 |   6   379k   1.3M   17%
+[2026-01-29 13:44:44.741506]   0    1   -84   84   8.6 |   7    7   1.3    727    7%    0.0 |   7   380k   1.3M   18%
+[2026-01-29 13:44:45.740787]   0    1   -84   84   -17 |   0    7   1.0    112    0%    0.0 |   8   380k   1.6M   14%
+[2026-01-29 13:44:46.740391]   0    1   -84   84   -18 |   0    7   1.0    112    0%    0.0 |   9   379k   1.4M   17%
+[2026-01-29 13:44:47.740904]   0    1   -85   85   3.3 |   0    7   1.0    335    0%    0.0 |   6   377k   1.6M   17%
+[2026-01-29 13:44:48.740463]   0    1   -84   84   -10 |   8    7   2.0    772   50%    0.0 |   8   378k   1.6M   18%
+[2026-01-29 13:44:49.740363] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:44:49.740817]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:44:49.740854]   0    1   -83   83    15 |   3    8   1.0    830    0%    0.0 |   7   379k   1.9M    8%
+[2026-01-29 13:44:50.740759]   0    1   -84   84    20 |  16    8   4.0    0.0  100%    0.0 |   9   379k   1.6M   20%
+[2026-01-29 13:44:51.740384]   0    1   -82   82   3.4 |   4    8   1.5   1.5k    7%    0.0 |  10   380k   1.6M   13%
+[2026-01-29 13:44:52.740819]   0    1   -82   82    25 |   0    8   1.0    726    0%    0.0 |  11   380k   1.5M   18%
+[2026-01-29 13:44:53.014846] Warning: Detected Radio-Link Failure
+[2026-01-29 13:44:53.033504] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:44:53.039976] Random Access Transmission: seq=50, tti=4011, ra-rnti=0x2
+[2026-01-29 13:44:53.069824] Reestablishment OK
+[2026-01-29 13:44:53.069928] RRC Connected
+[2026-01-29 13:44:53.070005] Random Access Complete.     c-rnti=0x82, ta=0
+[2026-01-29 13:44:53.740842]   0    1   -80   80   -18 |   2    7   1.5   1.9k   18%    0.0 |  13   380k   1.9M   23%
+[2026-01-29 13:44:54.196702] Warning: Detected Radio-Link Failure
+[2026-01-29 13:44:54.213389] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:44:54.220491] Random Access Transmission: seq=26, tti=5191, ra-rnti=0x2
+[2026-01-29 13:44:54.242783] Reestablishment OK
+[2026-01-29 13:44:54.242870] RRC Connected
+[2026-01-29 13:44:54.242885] Random Access Complete.     c-rnti=0x83, ta=0
+[2026-01-29 13:44:54.654340] Warning: Detected Radio-Link Failure
+[2026-01-29 13:44:54.674795] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:44:54.680338] Random Access Transmission: seq=11, tti=5651, ra-rnti=0x2
+[2026-01-29 13:44:54.702706] Reestablishment OK
+[2026-01-29 13:44:54.702824] RRC Connected
+[2026-01-29 13:44:54.702875] Random Access Complete.     c-rnti=0x84, ta=0
+[2026-01-29 13:44:54.740871]   0    1   -85   85    37 |   2    4   1.0   8.5k    0%    0.0 |   9   145k    15k    0%
+[2026-01-29 13:44:55.740732]   0    1   -83   83   3.3 |   0    8   1.4    878   11%    0.0 |  13   380k   1.3M   25%
+[2026-01-29 13:44:56.740492]   0    1   -85   85   -35 |   0    7   1.5    390   12%    0.0 |  11   379k   1.3M   19%
+[2026-01-29 13:44:57.741475]   0    1   -84   84  -5.5 |   0    8   1.0    836    0%    0.0 |   9   379k   1.4M   14%
+[2026-01-29 13:44:58.740834]   0    1   -82   82  -8.6 |   0    8   2.5    112   33%    0.0 |  12   379k   2.2M   14%
+[2026-01-29 13:44:59.740343]   0    1   -81   81  -5.8 |   0    9   2.0    391   12%    0.0 |  11   379k   1.7M   14%
+[2026-01-29 13:45:00.740505] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:45:00.741397]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:45:00.741450]   0    1   -80   80   5.4 |   0   10   1.0    279    0%    0.0 |   9   380k   2.2M   14%
+[2026-01-29 13:45:01.740439]   0    1   -81   81  -9.4 |   0   10   1.0    390    0%    0.0 |  13   379k   1.7M   20%
+[2026-01-29 13:45:02.186993] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:02.203457] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:02.210805] Random Access Transmission: seq=35, tti=2941, ra-rnti=0x2
+[2026-01-29 13:45:02.248508] Reestablishment OK
+[2026-01-29 13:45:02.248710] RRC Connected
+[2026-01-29 13:45:02.248729] Random Access Complete.     c-rnti=0x8b, ta=0
+[2026-01-29 13:45:02.711880] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:02.733643] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:02.740203] Random Access Transmission: seq=20, tti=3471, ra-rnti=0x2
+[2026-01-29 13:45:02.740674]   0    1   -83   83   -67 |   2    5   1.4    0.0    0%    0.0 |  15    6.0    0.0    0%
+[2026-01-29 13:45:02.760499] Random Access Transmission: seq=6, tti=3491, ra-rnti=0x2
+[2026-01-29 13:45:02.778392] Selected cell no longer suitable: Going to RRC IDLE
+[2026-01-29 13:45:02.778801] RRC IDLE
+[2026-01-29 13:45:02.780100] Service Request with cause mo-Data.
+[2026-01-29 13:45:02.820484] Random Access Transmission: seq=47, tti=3551, ra-rnti=0x2
+[2026-01-29 13:45:02.900319] Random Access Transmission: seq=3, tti=3631, ra-rnti=0x2
+[2026-01-29 13:45:02.920368] Random Access Transmission: seq=38, tti=3651, ra-rnti=0x2
+[2026-01-29 13:45:02.941750] RRC Connected
+[2026-01-29 13:45:02.942302] Random Access Complete.     c-rnti=0x92, ta=0
+[2026-01-29 13:45:02.942365] Service Request successful.
+[2026-01-29 13:45:03.740428]   0    1   -78   78   6.3 |   2   11   1.4   1.5k   16%    0.0 |  18   379k   1.4M   16%
+[2026-01-29 13:45:04.740247]   0    1   -80   80  -4.2 |   0   10   1.0    167    0%    0.0 |  15   379k   1.6M   18%
+[2026-01-29 13:45:05.740797]   0    1   -80   80  10.0 |   0   10   1.0    223    0%    1.0 |  14   380k   1.8M   23%
+[2026-01-29 13:45:06.740261]   0    1   -80   80    27 |   0   11   1.2    836    6%    0.5 |  13   380k   2.1M   21%
+[2026-01-29 13:45:07.740292]   0    1   -80   80  -386 |   0    6   1.0     56    0%    0.0 |  12   377k   1.5M   22%
+[2026-01-29 13:45:07.759444] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:07.863899] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:07.869960] Random Access Transmission: seq=40, tti=8601, ra-rnti=0x2
+[2026-01-29 13:45:07.890444] Random Access Transmission: seq=30, tti=8621, ra-rnti=0x2
+[2026-01-29 13:45:07.910379] Random Access Transmission: seq=30, tti=8641, ra-rnti=0x2
+[2026-01-29 13:45:07.931866] Reestablishment OK
+[2026-01-29 13:45:07.932576] RRC Connected
+[2026-01-29 13:45:07.932760] Random Access Complete.     c-rnti=0xa3, ta=0
+[2026-01-29 13:45:08.740398]   0    1   -77   77   -45 |   2   12   1.0   1.0k    0%    0.0 |  20   378k   1.8M   19%
+[2026-01-29 13:45:09.740273]   0    1   -77   77  -6.9 |   0   10   1.0    167    0%    0.0 |  12   378k   2.7M   12%
+[2026-01-29 13:45:10.581469] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:10.593715] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:10.600422] Random Access Transmission: seq=38, tti=1091, ra-rnti=0x2
+[2026-01-29 13:45:10.621806] Reestablishment OK
+[2026-01-29 13:45:10.621886] RRC Connected
+[2026-01-29 13:45:10.621908] Random Access Complete.     c-rnti=0xb9, ta=0
+[2026-01-29 13:45:10.740527]   0    1   -83   83  -2.6 |   8    8   1.2   7.8k    0%    0.0 |   5   380k   456k   32%
+[2026-01-29 13:45:11.740437] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:45:11.740686]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:45:11.740714]   0    1   -78   78   6.0 |   0   12   1.3   1.7k    3%    0.5 |   4   379k   2.3M   11%
+[2026-01-29 13:45:12.740877]   0    1   -77   77  -3.8 |   6   12   1.0   1.2k    0%    0.0 |   4   379k   2.1M   12%
+[2026-01-29 13:45:13.740920]   0    1   -77   77   6.5 |   0   12   1.2    670    0%    0.0 |   4   378k   2.4M    8%
+[2026-01-29 13:45:14.740509]   0    1   -78   78    18 |   6   11   1.0   1.6k    0%    0.0 |   9   380k   3.2M   12%
+[2026-01-29 13:45:15.740539]   0    1   -77   77   6.5 |   0   12   1.0    837    0%    0.0 |  18   378k   2.6M   18%
+[2026-01-29 13:45:16.686784] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:16.703235] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:16.710650] Random Access Transmission: seq=39, tti=7201, ra-rnti=0x2
+[2026-01-29 13:45:16.739817] Reestablishment OK
+[2026-01-29 13:45:16.740039] RRC Connected
+[2026-01-29 13:45:16.740177] Random Access Complete.     c-rnti=0xbd, ta=0
+[2026-01-29 13:45:16.740265]   0    1   -80   80   -28 |   2    9   1.5   4.8k   50%    0.0 |  20    0.0   1.1k   33%
+[2026-01-29 13:45:17.741875]   0    1   -77   77   1.1 |   0   13   0.0    0.0    0%    0.0 |   0    9.0    0.0    0%
+[2026-01-29 13:45:18.027201] Scheduling request failed: releasing RRC connection...
+[2026-01-29 13:45:18.030532] Random Access Transmission: seq=4, tti=8521, ra-rnti=0x2
+[2026-01-29 13:45:18.110392] Random Access Transmission: seq=10, tti=8601, ra-rnti=0x2
+[2026-01-29 13:45:18.131145] Random Access Transmission: seq=34, tti=8621, ra-rnti=0x2
+[2026-01-29 13:45:18.210621] Random Access Transmission: seq=31, tti=8701, ra-rnti=0x2
+[2026-01-29 13:45:18.230313] Random Access Transmission: seq=45, tti=8721, ra-rnti=0x2
+[2026-01-29 13:45:18.250518] Random Access Transmission: seq=36, tti=8741, ra-rnti=0x2
+[2026-01-29 13:45:18.330790] Random Access Transmission: seq=18, tti=8821, ra-rnti=0x2
+[2026-01-29 13:45:18.350304] Random Access Transmission: seq=33, tti=8841, ra-rnti=0x2
+[2026-01-29 13:45:18.370418] Random Access Transmission: seq=4, tti=8861, ra-rnti=0x2
+[2026-01-29 13:45:18.390660] Random Access Transmission: seq=14, tti=8881, ra-rnti=0x2
+[2026-01-29 13:45:18.407875] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:18.408249] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:18.410656] Random Access Transmission: seq=40, tti=8901, ra-rnti=0x2
+[2026-01-29 13:45:18.430699] Random Access Transmission: seq=15, tti=8921, ra-rnti=0x2
+[2026-01-29 13:45:18.450710] Random Access Transmission: seq=42, tti=8941, ra-rnti=0x2
+[2026-01-29 13:45:18.470196] Random Access Transmission: seq=45, tti=8961, ra-rnti=0x2
+[2026-01-29 13:45:18.496673] Reestablishment Reject. Going to RRC IDLE
+[2026-01-29 13:45:18.496759] Random Access Complete.     c-rnti=0xcf, ta=0
+[2026-01-29 13:45:18.497720] RRC IDLE
+[2026-01-29 13:45:18.499003] Service Request with cause mo-Data.
+[2026-01-29 13:45:18.500461] Random Access Transmission: seq=34, tti=8991, ra-rnti=0x2
+[2026-01-29 13:45:18.520514] Random Access Transmission: seq=10, tti=9011, ra-rnti=0x2
+[2026-01-29 13:45:18.546045] RRC Connected
+[2026-01-29 13:45:18.546505] Random Access Complete.     c-rnti=0xd1, ta=0
+[2026-01-29 13:45:18.546754] Service Request successful.
+[2026-01-29 13:45:18.740306]   0    1   -75   75    10 |   1   14   1.2   5.6k    0%    0.0 |  18   380k   838k   10%
+[2026-01-29 13:45:19.741856]   0    1   -75   75  633m |   0   14   1.0    279    0%    0.0 |  22   380k   3.1M   18%
+[2026-01-29 13:45:20.742468]   0    1   -78   78    27 |   0   11   1.0    726    0%    0.0 |  10   378k   3.9M   17%
+[2026-01-29 13:45:20.797727] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:20.813010] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:20.820231] Random Access Transmission: seq=19, tti=1071, ra-rnti=0x2
+[2026-01-29 13:45:20.841827] Reestablishment OK
+[2026-01-29 13:45:20.841915] RRC Connected
+[2026-01-29 13:45:20.842786] Random Access Complete.     c-rnti=0xd5, ta=0
+[2026-01-29 13:45:21.740763]   0    1   -75   75  -5.6 |   1   14   1.0   2.2k    0%    0.0 |  13   380k   6.5M   14%
+[2026-01-29 13:45:22.740260] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:45:22.740339]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:45:22.740356]   0    1   -75   75   2.4 |   8   14   1.0   3.7k    0%    0.0 |  12   379k   4.2M   11%
+[2026-01-29 13:45:23.742244]   0    1   -74   74   6.7 |   0   14   1.0    279    0%    0.0 |  22   379k   3.8M    9%
+[2026-01-29 13:45:23.990742] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:24.013475] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:24.020020] Random Access Transmission: seq=36, tti=4271, ra-rnti=0x2
+[2026-01-29 13:45:24.040385] Random Access Transmission: seq=21, tti=4291, ra-rnti=0x2
+[2026-01-29 13:45:24.061706] Reestablishment OK
+[2026-01-29 13:45:24.061809] RRC Connected
+[2026-01-29 13:45:24.061828] Random Access Complete.     c-rnti=0xec, ta=0
+[2026-01-29 13:45:24.740725]   0    1   -76   76    69 |   1   11   1.2   1.7k    0%    0.0 |  22   380k   2.7M   16%
+[2026-01-29 13:45:25.741802]   0    1   -78   78   8.4 |   0   12   1.0    167    0%    0.5 |  19   377k   2.2M   26%
+[2026-01-29 13:45:25.898586] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:25.923227] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:25.930520] Random Access Transmission: seq=30, tti=6181, ra-rnti=0x2
+[2026-01-29 13:45:25.951807] Reestablishment OK
+[2026-01-29 13:45:25.951919] RRC Connected
+[2026-01-29 13:45:25.951942] Random Access Complete.     c-rnti=0xed, ta=0
+[2026-01-29 13:45:26.740483]   0    1   -76   76    11 |   1   12   1.0   1.5k    0%    0.0 |  20   380k   2.8M   21%
+[2026-01-29 13:45:27.740371]   0    1   -75   75   -12 |  28   14   4.0    0.0  100%    0.0 |  18   379k   3.5M   14%
+[2026-01-29 13:45:28.740303]   0    1   -74   74    17 |   0   14   1.0    112    0%    0.0 |  20   380k   2.7M   16%
+[2026-01-29 13:45:29.485026] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:29.503015] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:29.510406] Random Access Transmission: seq=4, tti=9761, ra-rnti=0x2
+[2026-01-29 13:45:29.530207] Random Access Transmission: seq=4, tti=9781, ra-rnti=0x2
+[2026-01-29 13:45:29.551807] Reestablishment OK
+[2026-01-29 13:45:29.551890] RRC Connected
+[2026-01-29 13:45:29.551906] Random Access Complete.     c-rnti=0xf7, ta=0
+[2026-01-29 13:45:29.740403]   0    1   -74   74    62 |   2   10   1.0   5.8k    0%    0.0 |  17   380k   1.2M    1%
+[2026-01-29 13:45:30.740375]   0    1   -76   76    14 |   0   13   1.3    669    7%    0.0 |  16   380k   2.5M   19%
+[2026-01-29 13:45:30.877342] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:30.893691] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:30.900434] Random Access Transmission: seq=6, tti=911, ra-rnti=0x2
+[2026-01-29 13:45:30.929804] Reestablishment OK
+[2026-01-29 13:45:30.930259] RRC Connected
+[2026-01-29 13:45:30.930314] Random Access Complete.     c-rnti=0xfb, ta=0
+[2026-01-29 13:45:31.350424] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:31.373484] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:31.380354] Random Access Transmission: seq=28, tti=1391, ra-rnti=0x2
+[2026-01-29 13:45:31.401881] Reestablishment OK
+[2026-01-29 13:45:31.402290] RRC Connected
+[2026-01-29 13:45:31.402336] Random Access Complete.     c-rnti=0xfc, ta=0
+[2026-01-29 13:45:31.740416]   0    1   -76   76   -14 |   2   10   1.0   2.4k    0%    0.0 |  21   378k   2.4M   14%
+[2026-01-29 13:45:32.740734]   0    1   -74   74   3.3 |  10   14   1.0    893    0%    0.0 |  19   378k   2.5M   16%
+[2026-01-29 13:45:33.740382] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:45:33.740476]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:45:33.740498]   0    1   -75   75  -9.3 |   5   14   1.0   2.0k    0%    0.0 |  17   380k   2.5M   11%
+[2026-01-29 13:45:34.740810]   0    1   -75   75  998m |   0   13   1.0     56    0%    0.0 |  17   378k   2.1M   18%
+[2026-01-29 13:45:35.740462]   0    1   -77   77    17 |   0   13   1.0    892    0%    0.0 |  16   377k   2.0M   20%
+[2026-01-29 13:45:36.672835] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:36.683057] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:36.690154] Random Access Transmission: seq=7, tti=6701, ra-rnti=0x2
+[2026-01-29 13:45:36.719649] Reestablishment OK
+[2026-01-29 13:45:36.719744] RRC Connected
+[2026-01-29 13:45:36.719764] Random Access Complete.     c-rnti=0xff, ta=0
+[2026-01-29 13:45:36.740321]   0    1   -80   80    25 |   2    9   1.0   3.8k    0%    0.0 |  15    0.0    824   40%
+[2026-01-29 13:45:37.740358]   0    1   -75   75   6.7 |   1   14   1.0   2.3k    0%    0.0 |   7   376k   4.0M    9%
+[2026-01-29 13:45:38.741244]   0    1   -77   77   9.5 |   5   13   1.0   1.8k    0%    0.0 |   2   379k   1.5M   13%
+[2026-01-29 13:45:39.740421]   0    1   -78   78  404m |   3   13   1.0   1.4k    0%    0.0 |   9   379k   2.1M   13%
+[2026-01-29 13:45:40.740455]   0    1   -80   80    25 |   0   11   0.0     56    0%    0.0 |  14   379k   1.7M   24%
+[2026-01-29 13:45:41.740312]   0    1   -78   78   -15 |   0   12   0.0    0.0    0%    0.0 |  14   379k   1.9M   15%
+[2026-01-29 13:45:42.740219]   0    1   -79   79  -6.7 |   0   11   1.0    223    0%    0.0 |  13   380k   1.7M   22%
+[2026-01-29 13:45:43.740447]   0    1   -80   80   -22 |   0   11   1.0    223    0%    0.0 |  13   380k   1.7M   20%
+[2026-01-29 13:45:44.740330] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:45:44.740413]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:45:44.740440]   0    1   -81   81   2.4 |   0   10   1.0    111    0%    0.0 |  15   380k   1.5M   21%
+[2026-01-29 13:45:45.743426]   0    1   -82   82    10 |  18   10   1.5    334   14%    0.0 |  13   378k   1.7M   20%
+[2026-01-29 13:45:46.740307]   0    1   -80   80   7.8 |   0   10   1.0     56    0%    0.0 |  13   376k   1.9M   16%
+[2026-01-29 13:45:47.740660]   0    1   -80   80  244m |   6   10   1.5   1.8k   14%    0.0 |  13   379k   1.7M   18%
+[2026-01-29 13:45:48.740819]   0    1   -82   82  -8.6 |   0    9   1.0    279    0%    0.0 |  12   380k   1.4M   22%
+[2026-01-29 13:45:49.740133]   0    1   -81   81    26 |   0   10   0.0     56    0%    0.0 |  13   380k   1.7M   17%
+[2026-01-29 13:45:50.740455]   0    1   -80   80   1.6 |   0   10   1.0     56    0%    0.0 |  12   380k   1.7M   18%
+[2026-01-29 13:45:51.740607]   0    1   -82   82   -22 |   0    9   0.0    0.0    0%    0.0 |  11   379k   1.5M   19%
+[2026-01-29 13:45:52.740444]   0    1   -82   82   -19 |   0    9   1.0    279    0%    0.0 |  12   379k   1.4M   22%
+[2026-01-29 13:45:53.740328]   0    1   -85   85   -11 |   0    8   1.0    334    0%    0.0 |  11   380k   1.3M   23%
+[2026-01-29 13:45:54.740547]   0    1   -84   84   6.9 |   0    8   1.0    111    0%    0.0 |  10   379k   1.2M   21%
+[2026-01-29 13:45:55.740297] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:45:55.740479]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:45:55.740498]   0    1   -83   83   3.7 |   0    8   0.0    0.0    0%    0.0 |  11   379k   1.5M   17%
+[2026-01-29 13:45:56.740324]   0    1   -83   83   365 |   0    5   0.0    0.0    0%    0.0 |   9   380k   1.1M   19%
+[2026-01-29 13:45:56.872215] Warning: Detected Radio-Link Failure
+[2026-01-29 13:45:56.983566] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:45:56.990111] Random Access Transmission: seq=20, tti=6521, ra-rnti=0x2
+[2026-01-29 13:45:57.010467] Random Access Transmission: seq=16, tti=6541, ra-rnti=0x2
+[2026-01-29 13:45:57.032742] Reestablishment OK
+[2026-01-29 13:45:57.032813] RRC Connected
+[2026-01-29 13:45:57.032855] Random Access Complete.     c-rnti=0x117, ta=0
+[2026-01-29 13:45:57.740379]   0    1   -83   83   429 |   1    7   1.2   2.4k    0%    0.0 |  11   379k   1.4M   22%
+[2026-01-29 13:45:58.740632]   0    1   -82   82   3.8 |   0    8   1.0    279    0%    0.0 |   7   378k   1.7M    9%
+[2026-01-29 13:45:59.740304]   0    1   -85   85  -4.4 |   5    7   1.0   1.1k    0%    0.0 |   8   379k   1.2M   17%
+[2026-01-29 13:46:00.741281]   0    1   -84   84  -31m |   0    8   1.0    614    0%    0.0 |   8   378k   1.8M   20%
+[2026-01-29 13:46:01.740823]   0    1   -83   83    12 |   0    8   1.0    167    0%    0.0 |   9   378k   1.2M   23%
+[2026-01-29 13:46:02.740401]   0    1   -83   83  -3.8 |   0    8   1.0    916    0%    0.0 |   7   379k   1.6M   15%
+[2026-01-29 13:46:03.740966]   0    1   -83   83  -4.7 |   8    8   1.6    391   12%    0.0 |   5   380k   1.8M    9%
+[2026-01-29 13:46:04.740473]   0    1   -83   83  -3.5 |   0    7   1.0    167    0%    0.0 |   7   380k   1.5M   15%
+[2026-01-29 13:46:05.740339]   0    1   -85   85   6.5 |   0    7   1.0    724    0%    0.0 |   6   378k   1.3M   19%
+[2026-01-29 13:46:06.741579] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:46:06.741692]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:46:06.741716]   0    1   -84   84    11 |   0    7   1.0    278    0%    0.0 |   4   380k   1.4M   12%
+[2026-01-29 13:46:07.740313]   0    1   -88   88   -14 |   0    6   1.0    557    0%    0.0 |   7   378k   1.0M   20%
+[2026-01-29 13:46:08.741208]   0    1   -85   85  -2.0 |   0    7   1.0    279    0%    0.0 |   6   378k   1.4M   19%
+[2026-01-29 13:46:09.740421]   0    1   -85   85   1.7 |  14    7   1.5    223   20%    0.0 |   5   377k   1.1M   17%
+[2026-01-29 13:46:10.740475]   0    1   -85   85   7.1 |   1    7   1.0   2.4k    0%    0.0 |   6   378k   1.2M   14%
+[2026-01-29 13:46:11.740719]   0    1   -82   82   3.0 |   2    7   1.0    885    0%    0.0 |   5   380k   1.5M   15%
+[2026-01-29 13:46:12.741229]   0    1   -85   85    32 |   0    7   1.0    167    0%    0.0 |   5   380k   1.5M   15%
+[2026-01-29 13:46:13.740467]   0    1   -85   85   3.0 |  11    7   1.6    334   14%    0.0 |   4   380k   1.1M   16%
+[2026-01-29 13:46:14.541257] Warning: Detected Radio-Link Failure
+[2026-01-29 13:46:14.618894] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:46:14.625024] Random Access Transmission: seq=14, tti=3671, ra-rnti=0x2
+[2026-01-29 13:46:14.645371] Random Access Transmission: seq=27, tti=3691, ra-rnti=0x2
+[2026-01-29 13:46:14.665504] Random Access Transmission: seq=2, tti=3711, ra-rnti=0x2
+[2026-01-29 13:46:14.690763] Reestablishment OK
+[2026-01-29 13:46:14.690840] RRC Connected
+[2026-01-29 13:46:14.690864] Random Access Complete.     c-rnti=0x11f, ta=0
+[2026-01-29 13:46:14.740299]   0    1   -86   86   156 |   2    5   1.0   3.3k    0%    0.0 |   3   124k   1.6k    0%
+[2026-01-29 13:46:15.741502]   0    1   -86   86    18 |   0    6   1.0    709    0%    0.0 |   5   378k   1.2M   21%
+[2026-01-29 13:46:16.740480]   0    1   -85   85   8.3 |   0    6   1.0    727    0%    0.0 |   2   377k   956k   10%
+[2026-01-29 13:46:17.740240] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:46:17.740337]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:46:17.740358]   0    1   -89   89   -22 |   0    5   1.0    279    0%    0.0 |   3   378k   983k    8%
+[2026-01-29 13:46:18.742608]   0    1   -84   84  -8.8 |   4    6   1.0    835    0%    0.0 |   2   379k   906k   11%
+[2026-01-29 13:46:19.740463]   0    1   -86   86  -1.5 |   1    6   1.0   1.5k    0%    0.0 |   2   380k   908k   13%
+[2026-01-29 13:46:20.740608]   0    1   -85   85   3.4 |   0    6   1.0    782    0%    0.0 |   1   379k   840k   10%
+[2026-01-29 13:46:21.740816]   0    1   -85   85    22 |   0    6   1.0    335    0%    0.0 |   2   379k   864k   10%
+[2026-01-29 13:46:22.740697]   0    1   -84   84    16 |   0    6   1.0   1.0k    0%    0.0 |   1   380k   815k   12%
+[2026-01-29 13:46:23.740371]   0    1   -86   86  -4.8 |   0    6   1.0    390    0%    0.0 |   1   379k   832k   10%
+[2026-01-29 13:46:24.740473]   0    1   -85   85  -6.1 |   0    5   1.0    112    0%    0.0 |   2   379k   615k   12%
+[2026-01-29 13:46:25.740470]   0    1   -86   86    12 |   0    5   1.0    614    0%    0.0 |   1   379k   655k   12%
+[2026-01-29 13:46:26.740387]   0    1   -86   86  -5.0 |   0    5   1.0    725    0%    0.0 |   1   380k   701k    9%
+[2026-01-29 13:46:27.740372]   0    1   -86   86  -5.7 |   0    5   1.0    782    0%    0.0 |   0   379k   603k   13%
+[2026-01-29 13:46:28.740320] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:46:28.740574]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:46:28.740753]   0    1   -87   87  629m |   0    5   1.0    558    0%    0.0 |   0   378k   498k   16%
+[2026-01-29 13:46:29.740348]   0    1   -87   87    23 |   0    5   1.0   1.1k    0%    0.0 |   0   379k   502k   16%
+[2026-01-29 13:46:30.742246]   0    1   -88   88    35 |   0    5   1.0   1.4k    0%    0.0 |   1   376k   491k   22%
+[2026-01-29 13:46:31.740329]   0    1   -88   88    13 |   0    5   1.0    447    0%    0.0 |   1   376k   552k   16%
+[2026-01-29 13:46:32.740814]   0    1   -87   87    34 |   0    5   1.0    446    0%    0.0 |   0   375k   560k   14%
+[2026-01-29 13:46:33.741134]   0    1   -87   87    22 |   4    5   2.1   1.6k   11%    0.0 |   0   377k   598k   15%
+[2026-01-29 13:46:34.740717]   0    1   -86   86 -351m |   9    5   1.5    725    7%    0.0 |   0   377k   665k   13%
+[2026-01-29 13:46:34.970150] Warning: Detected Radio-Link Failure
+[2026-01-29 13:46:34.988632] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:46:34.995325] Random Access Transmission: seq=1, tti=3561, ra-rnti=0x2
+[2026-01-29 13:46:35.016788] Reestablishment OK
+[2026-01-29 13:46:35.016876] RRC Connected
+[2026-01-29 13:46:35.016895] Random Access Complete.     c-rnti=0x120, ta=0
+[2026-01-29 13:46:35.740663]   0    1   -87   87    21 |   1    4   1.0   2.6k    0%    0.0 |   3   380k   798k   22%
+[2026-01-29 13:46:36.740792]   0    1   -87   87    27 |   0    4   1.0    614    0%    0.0 |   0   380k   548k   13%
+[2026-01-29 13:46:37.740735]   0    1   -87   87    32 |   0    4   1.0    223    0%    0.0 |   3   380k   574k   15%
+[2026-01-29 13:46:38.740399]   0    1   -86   86    28 |   0    4   1.0    669    0%    0.0 |   1   380k   557k   18%
+[2026-01-29 13:46:39.740434] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:46:39.740638]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:46:39.740665]   0    1   -87   87   5.9 |   0    4   0.0    0.0    0%    0.0 |   5   380k   648k   11%
+[2026-01-29 13:46:40.740738]   0    1   -87   87    11 |   0    4   0.0    0.0    0%    0.0 |   1   380k   584k   15%
+[2026-01-29 13:46:41.740712]   0    1   -86   86    50 |   0    4   0.0    0.0    0%    0.0 |   1   379k   527k   16%
+[2026-01-29 13:46:42.740723]   0    1   -88   88    11 |   0    4   0.0     56    0%    0.0 |   0   380k   518k   18%
+[2026-01-29 13:46:43.740350]   0    1   -87   87   -20 |   0    4   1.0    335    0%    0.0 |   0   380k   593k   16%
+[2026-01-29 13:46:44.740414]   0    1   -87   87   4.0 |   0    4   1.0    726    0%    0.0 |   1   380k   628k   16%
+[2026-01-29 13:46:45.740625]   0    1   -88   88    17 |   0    4   1.0    278    0%    0.0 |   1   379k   500k   22%
+[2026-01-29 13:46:46.740729]   0    1   -86   86   8.8 |   0    4   1.0    224    0%    0.0 |   1   379k   683k   11%
+[2026-01-29 13:46:47.740796]   0    1   -87   87   2.5 |   0    4   1.0    670    0%    0.0 |   1   379k   481k   20%
+[2026-01-29 13:46:48.741232]   0    1   -88   88    18 |  22    4   1.5    558    9%    0.0 |   1   380k   490k   18%
+[2026-01-29 13:46:49.740334]   0    1   -87   87  -1.1 |   9    4   1.5    782    6%    0.0 |   4   379k   695k   13%
+[2026-01-29 13:46:50.741661] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:46:50.741764]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:46:50.741791]   0    1   -88   88  -8.9 |   0    4   1.0    389    0%    0.0 |  11   379k   438k   18%
+[2026-01-29 13:46:51.740303]   0    1   -86   86   9.0 |   0    4   1.0    335    0%    0.0 |   0   379k   696k   12%
+[2026-01-29 13:46:52.740889]   0    1   -87   87    26 |   0    4   0.0    0.0    0%    0.0 |   1   379k   677k   14%
+[2026-01-29 13:46:53.740376]   0    1   -86   86   9.6 |   0    4   1.0    559    0%    0.0 |   0   380k   655k   16%
+[2026-01-29 13:46:54.740581]   0    1   -88   88  -1.3 |   0    4   1.0    391    0%    0.0 |   2   380k   527k   20%
+[2026-01-29 13:46:55.740763]   0    1   -88   88    43 |   0    4   1.0    779    0%    0.0 |   3   380k   559k   18%
+[2026-01-29 13:46:56.742601]   0    1   -87   87   7.3 |   0    4   1.0    670    0%    0.0 |  10   379k   629k   12%
+[2026-01-29 13:46:57.740719]   0    1   -87   87    53 |   0    4   1.0    390    0%    0.0 |   1   380k   601k   12%
+[2026-01-29 13:46:58.740365]   0    1   -88   88  -8.7 |   0    4   1.0    557    0%    0.0 |   1   380k   556k   17%
+[2026-01-29 13:46:59.740645]   0    1   -87   87    22 |   0    4   0.0    0.0    0%    0.0 |   4   380k   485k   20%
+[2026-01-29 13:47:00.742105]   0    1   -88   88    11 |   0    4   1.0   1.3k    0%    0.0 |   0   379k   595k   18%
+[2026-01-29 13:47:01.741480] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:47:01.741592]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:47:01.741614]   0    1   -88   88    62 |   0    4   1.0    168    0%    0.0 |   1   379k   443k   22%
+[2026-01-29 13:47:02.740938]   0    1   -88   88    31 |   0    4   1.0    725    0%    0.0 |   0   380k   509k   19%
+[2026-01-29 13:47:03.741692]   0    1   -87   87  -6.5 |   0    4   1.0    279    0%    0.0 |   0   378k   669k   12%
+[2026-01-29 13:47:04.740280]   0    1   -88   88    48 |   0    3   1.0    390    0%    0.0 |   1   378k   473k   17%
+[2026-01-29 13:47:05.740188]   0    1   -87   87   8.7 |   0    4   1.0   1.1k    0%    0.0 |   0   376k   650k   17%
+[2026-01-29 13:47:06.740719]   0    1   -88   88   8.3 |   0    4   1.0    503    0%    0.0 |   1   377k   642k   14%
+[2026-01-29 13:47:06.967787] Warning: Detected Radio-Link Failure
+[2026-01-29 13:47:06.998151] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:47:07.005521] Random Access Transmission: seq=7, tti=4851, ra-rnti=0x2
+[2026-01-29 13:47:07.027019] Reestablishment OK
+[2026-01-29 13:47:07.027237] RRC Connected
+[2026-01-29 13:47:07.027256] Random Access Complete.     c-rnti=0x121, ta=0
+[2026-01-29 13:47:07.740614]   0    1   -88   88   126 |   0    3   1.1   2.1k    0%    0.0 |   1   380k   451k   26%
+[2026-01-29 13:47:08.742721]   0    1   -88   88    99 |   0    3   0.0    0.0    0%    0.0 |   0   380k   471k   20%
+[2026-01-29 13:47:09.063393] Warning: Detected Radio-Link Failure
+[2026-01-29 13:47:09.103156] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:47:09.110268] Random Access Transmission: seq=12, tti=6951, ra-rnti=0x2
+[2026-01-29 13:47:09.155332] Reestablishment OK
+[2026-01-29 13:47:09.155439] RRC Connected
+[2026-01-29 13:47:09.155462] Random Access Complete.     c-rnti=0x122, ta=0
+[2026-01-29 13:47:09.740389]   0    1   -89   89    46 |   0    2   1.2   3.9k    4%    0.0 |   5   379k   330k   29%
+[2026-01-29 13:47:10.742567]   0    1   -89   89   6.2 |   0    3   1.0   1.3k    0%    0.0 |   2   379k   416k   24%
+[2026-01-29 13:47:11.740578]   0    1   -87   87   9.3 |  12    4   2.5    750   42%    0.0 |   1   379k   476k   28%
+[2026-01-29 13:47:12.740794] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:47:12.740894]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:47:12.740916]   0    1   -86   86    43 |   0    5   1.0    557    0%    0.0 |   2   379k   491k   30%
+[2026-01-29 13:47:13.741592]   0    1   -86   86   9.6 |   0    5   1.0    224    0%    0.0 |   4   379k   506k   28%
+[2026-01-29 13:47:14.740278]   0    1   -86   86    38 |   0    4   1.0    224    0%    0.0 |   1   380k   469k   29%
+[2026-01-29 13:47:15.740450]   0    1   -87   87  -3.1 |   0    4   1.0    946    0%    0.0 |   1   377k   493k   29%
+[2026-01-29 13:47:16.742092]   0    1   -87   87    21 |   0    4   1.0    948    0%    0.0 |   1   378k   455k   29%
+[2026-01-29 13:47:17.740272]   0    1   -87   87  -6.3 |   0    4   1.0    168    0%    0.0 |   2   378k   463k   30%
+[2026-01-29 13:47:18.740297]   0    1   -86   86   1.2 |   0    5   1.0    223    0%    0.0 |   1   376k   488k   31%
+[2026-01-29 13:47:19.740988]   0    1   -86   86    15 |   0    4   1.0   1.1k    0%    0.0 |   1   375k   429k   30%
+[2026-01-29 13:47:20.742113]   0    1   -87   87  -6.3 |   0    4   1.0    446    0%    0.0 |   1   376k   422k   31%
+[2026-01-29 13:47:21.741644]   0    1   -87   87   1.1 |   0    4   1.0   3.5k    0%    0.0 |   1   377k   480k   27%
+[2026-01-29 13:47:21.865843] Warning: Detected Radio-Link Failure
+[2026-01-29 13:47:21.878152] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:47:21.885000] Random Access Transmission: seq=11, tti=9481, ra-rnti=0x2
+[2026-01-29 13:47:21.907395] Reestablishment OK
+[2026-01-29 13:47:21.907522] RRC Connected
+[2026-01-29 13:47:21.907725] Random Access Complete.     c-rnti=0x124, ta=0
+[2026-01-29 13:47:22.741481]   0    1   -87   87    40 |   2    4   1.0   2.2k    0%    0.0 |   4   379k   467k   29%
+[2026-01-29 13:47:23.740329] ---------Signal-----------|-----------------DL-----------------|-----------UL-----------
+[2026-01-29 13:47:23.740440]  cc  pci  rsrp   pl   cfo | mcs  snr  iter  brate  bler  ta_us | mcs   buff  brate  bler
+[2026-01-29 13:47:23.740474]   0    1   -86   86  -9.4 |   0    4   1.0    224    0%    0.0 |   1   379k   504k   31%
+[2026-01-29 13:47:24.740561]   0    1   -86   86   -11 |   0    4   1.0    224    0%    0.0 |   2   380k   496k   29%
+[2026-01-29 13:47:25.196284] Warning: Detected Radio-Link Failure
+[2026-01-29 13:47:25.222117] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:47:25.229294] Random Access Transmission: seq=38, tti=2581, ra-rnti=0x2
+[2026-01-29 13:47:25.249454] Random Access Transmission: seq=6, tti=2601, ra-rnti=0x2
+[2026-01-29 13:47:25.269656] Random Access Transmission: seq=23, tti=2621, ra-rnti=0x2
+[2026-01-29 13:47:25.289753] Reestablishment OK
+[2026-01-29 13:47:25.289830] RRC Connected
+[2026-01-29 13:47:25.289843] Random Access Complete.     c-rnti=0x128, ta=0
+[2026-01-29 13:47:25.740822]   0    1   -87   87    46 |   8    3   1.3   5.6k    0%    0.0 |   3   380k   355k   32%
+[2026-01-29 13:47:26.740797]   0    1   -89   89   117 |   0    4   0.0    0.0    0%    0.0 |   2   379k   284k   37%
+[2026-01-29 13:47:26.973771] Warning: Detected Radio-Link Failure
+[2026-01-29 13:47:26.992480] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:47:26.999339] Random Access Transmission: seq=4, tti=4351, ra-rnti=0x2
+[2026-01-29 13:47:27.021867] Reestablishment OK
+[2026-01-29 13:47:27.022203] RRC Connected
+[2026-01-29 13:47:27.022225] Random Access Complete.     c-rnti=0x129, ta=0
+[2026-01-29 13:47:27.740457]   0    1   -87   87   6.8 |   1    4   1.0   1.8k    0%    0.0 |   2   379k   421k   32%
+[2026-01-29 13:47:28.084758] Warning: Detected Radio-Link Failure
+[2026-01-29 13:47:28.173416] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:47:28.179330] Random Access Transmission: seq=15, tti=5531, ra-rnti=0x2
+[2026-01-29 13:47:28.199371] Random Access Transmission: seq=27, tti=5551, ra-rnti=0x2
+[2026-01-29 13:47:28.219910] Random Access Transmission: seq=46, tti=5571, ra-rnti=0x2
+[2026-01-29 13:47:28.239152] Random Access Transmission: seq=4, tti=5591, ra-rnti=0x2
+[2026-01-29 13:47:28.259461] Random Access Transmission: seq=42, tti=5611, ra-rnti=0x2
+[2026-01-29 13:47:28.272401] Timer T301 expired: Going to RRC IDLE
+[2026-01-29 13:47:28.272482] RRC IDLE
+[2026-01-29 13:47:28.273060] Service Request with cause mo-Data.
+[2026-01-29 13:47:28.279700] Random Access Transmission: seq=36, tti=5631, ra-rnti=0x2
+[2026-01-29 13:47:28.299503] Random Access Transmission: seq=25, tti=5651, ra-rnti=0x2
+[2026-01-29 13:47:28.319681] Random Access Transmission: seq=0, tti=5671, ra-rnti=0x2
+[2026-01-29 13:47:28.339561] Random Access Transmission: seq=22, tti=5691, ra-rnti=0x2
+[2026-01-29 13:47:28.359179] Random Access Transmission: seq=44, tti=5711, ra-rnti=0x2
+[2026-01-29 13:47:28.379471] Random Access Transmission: seq=37, tti=5731, ra-rnti=0x2
+[2026-01-29 13:47:28.399450] Random Access Transmission: seq=43, tti=5751, ra-rnti=0x2
+[2026-01-29 13:47:28.419360] Random Access Transmission: seq=22, tti=5771, ra-rnti=0x2
+[2026-01-29 13:47:28.439215] Random Access Transmission: seq=41, tti=5791, ra-rnti=0x2
+[2026-01-29 13:47:28.459485] Random Access Transmission: seq=23, tti=5811, ra-rnti=0x2
+[2026-01-29 13:47:30.262699] RRC connection for Service Request failed.
+[2026-01-29 13:47:32.283180] --- disconnected ---
+[2026-01-29 13:47:32.283276] --- disconnected ---
+[2026-01-29 13:47:32.386473] .
+[2026-01-29 13:47:32.402102] Found Cell:  Mode=FDD, PCI=1, PRB=50, Ports=1, CP=Normal, CFO=0.6 KHz
+[2026-01-29 13:47:32.438908] Found PLMN:  Id=00101, TAC=7
+[2026-01-29 13:47:32.589251] Random Access Transmission: seq=4, tti=9941, ra-rnti=0x2
+[2026-01-29 13:47:32.618768] RRC Connected
+[2026-01-29 13:47:32.619297] Random Access Complete.     c-rnti=0x14c, ta=0
+[2026-01-29 13:47:32.741690]   0    1   -84   84    27 |   2    5   1.2   3.8k    9%    0.0 |   5    0.0   6.4k   11%
+[2026-01-29 13:47:32.917780] Network attach successful. IP: 172.16.0.2
+[2026-01-29 13:47:33.119987] Software Radio Systems RAN (srsRAN) 29/1/2026 18:47:33 TZ:0
+[2026-01-29 13:47:33.740473]   0    1   -87   87    67 |   0    4   1.0   3.8k    0%    0.0 |   2   379k   435k   28%
+[2026-01-29 13:47:34.740484]   0    1   -86   86   8.3 |   0    4   1.0    782    0%    0.0 |   1   379k   469k   29%
+[2026-01-29 13:47:35.740373]   0    1   -87   87    27 |   0    4   1.0    668    0%    0.0 |   3   379k   416k   32%
+[2026-01-29 13:47:36.740454]   0    1   -88   88    43 |   0    4   1.0    223    0%    0.0 |   4   380k   410k   30%
+[2026-01-29 13:47:37.331853] Warning: Detected Radio-Link Failure
+[2026-01-29 13:47:37.352279] RRC Connection Reestablishment to PCI=1, EARFCN=3350 (Cause: "otherFailure")
+[2026-01-29 13:47:37.359614] Random Access Transmission: seq=45, tti=4471, ra-rnti=0x2
+[2026-01-29 13:47:37.379394] Random Access Transmission: seq=7, tti=4491, ra-rnti=0x2
+[2026-01-29 13:47:37.399608] Random Access Transmission: seq=1, tti=4511, ra-rnti=0x2
+[2026-01-29 13:47:37.416483] Selected cell no longer suitable: Going to RRC IDLE
+[2026-01-29 13:47:37.417483] RRC IDLE
+[2026-01-29 13:47:37.417929] Service Request with cause mo-Data.
+[2026-01-29 13:47:37.609415] Random Access Transmission: seq=21, tti=4721, ra-rnti=0x2
+[2026-01-29 13:47:37.629448] Random Access Transmission: seq=4, tti=4741, ra-rnti=0x2
+[2026-01-29 13:47:37.656592] Random Access Transmission: seq=39, tti=4761, ra-rnti=0x2
+[2026-01-29 13:47:37.676500] Random Access Transmission: seq=50, tti=4781, ra-rnti=0x2
+[2026-01-29 13:47:37.696173] Random Access Transmission: seq=11, tti=4801, ra-rnti=0x2
+[2026-01-29 13:47:37.716640] Random Access Transmission: seq=28, tti=4821, ra-rnti=0x2
+[2026-01-29 13:47:37.736387] Random Access Transmission: seq=9, tti=4841, ra-rnti=0x2
+[2026-01-29 13:47:37.756000] Random Access Transmission: seq=49, tti=4861, ra-rnti=0x2
+[2026-01-29 13:47:37.775957] Random Access Transmission: seq=10, tti=4881, ra-rnti=0x2
+[2026-01-29 13:47:37.797385] Random Access Transmission: seq=8, tti=4901, ra-rnti=0x2
+[2026-01-29 13:47:39.596353] RRC connection for Service Request failed.
+[2026-01-29 13:47:41.422758] --- disconnected ---
+[2026-01-29 13:47:41.422840] --- disconnected ---
+[2026-01-29 13:47:41.791072] ...--- disconnected ---
+[2026-01-29 13:47:42.766911] ........--- disconnected ---
+[2026-01-29 13:47:43.742973] ........--- disconnected ---
+[2026-01-29 13:47:44.841107] .........--- disconnected ---

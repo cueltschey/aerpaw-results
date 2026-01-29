@@ -1,0 +1,37 @@
+[2026-01-29 13:43:12.420630] Looking for connection...
+[2026-01-29 13:43:12.425961] Got it
+[2026-01-29 13:43:12.427563] PING 172.16.0.1 (172.16.0.1) 56(84) bytes of data.
+[2026-01-29 13:43:12.439911] 64 bytes from 172.16.0.1: icmp_seq=1 ttl=64 time=12.3 ms
+[2026-01-29 13:43:49.011359] 64 bytes from 172.16.0.1: icmp_seq=153 ttl=64 time=5154 ms
+[2026-01-29 13:43:53.067313] 64 bytes from 172.16.0.1: icmp_seq=174 ttl=64 time=4898 ms
+[2026-01-29 13:44:08.044100] 64 bytes from 172.16.0.1: icmp_seq=245 ttl=64 time=5327 ms
+[2026-01-29 13:44:08.202173] 64 bytes from 172.16.0.1: icmp_seq=246 ttl=64 time=5281 ms
+[2026-01-29 13:44:10.494301] 64 bytes from 172.16.0.1: icmp_seq=256 ttl=64 time=5521 ms
+[2026-01-29 13:44:16.985002] 64 bytes from 172.16.0.1: icmp_seq=299 ttl=64 time=3189 ms
+[2026-01-29 13:44:19.567862] 64 bytes from 172.16.0.1: icmp_seq=305 ttl=64 time=4537 ms
+[2026-01-29 13:44:31.368515] 64 bytes from 172.16.0.1: icmp_seq=370 ttl=64 time=2935 ms
+[2026-01-29 13:44:33.014146] 64 bytes from 172.16.0.1: icmp_seq=378 ttl=64 time=2949 ms
+[2026-01-29 13:44:33.462985] 64 bytes from 172.16.0.1: icmp_seq=382 ttl=64 time=2577 ms
+[2026-01-29 13:44:37.827276] 64 bytes from 172.16.0.1: icmp_seq=406 ttl=64 time=2014 ms
+[2026-01-29 13:44:42.609941] 64 bytes from 172.16.0.1: icmp_seq=430 ttl=64 time=1868 ms
+[2026-01-29 13:44:47.997107] 64 bytes from 172.16.0.1: icmp_seq=456 ttl=64 time=1932 ms
+[2026-01-29 13:44:49.262551] 64 bytes from 172.16.0.1: icmp_seq=462 ttl=64 time=1956 ms
+[2026-01-29 13:44:50.815895] 64 bytes from 172.16.0.1: icmp_seq=470 ttl=64 time=1866 ms
+[2026-01-29 13:45:10.179670] 64 bytes from 172.16.0.1: icmp_seq=566 ttl=64 time=1530 ms
+[2026-01-29 13:45:14.084841] 64 bytes from 172.16.0.1: icmp_seq=587 ttl=64 time=1127 ms
+[2026-01-29 13:45:22.606193] 64 bytes from 172.16.0.1: icmp_seq=631 ttl=64 time=633 ms
+[2026-01-29 13:45:32.191343] 64 bytes from 172.16.0.1: icmp_seq=677 ttl=64 time=742 ms
+[2026-01-29 13:45:33.693250] 64 bytes from 172.16.0.1: icmp_seq=682 ttl=64 time=1209 ms
+[2026-01-29 13:45:37.703197] 64 bytes from 172.16.0.1: icmp_seq=704 ttl=64 time=706 ms
+[2026-01-29 13:45:38.186645] 64 bytes from 172.16.0.1: icmp_seq=705 ttl=64 time=985 ms
+[2026-01-29 13:45:38.924745] 64 bytes from 172.16.0.1: icmp_seq=706 ttl=64 time=1516 ms
+[2026-01-29 13:45:47.140958] 64 bytes from 172.16.0.1: icmp_seq=745 ttl=64 time=1724 ms
+[2026-01-29 13:45:47.477875] 64 bytes from 172.16.0.1: icmp_seq=747 ttl=64 time=1645 ms
+[2026-01-29 13:45:59.597926] 64 bytes from 172.16.0.1: icmp_seq=804 ttl=64 time=2017 ms
+[2026-01-29 13:46:02.433866] 64 bytes from 172.16.0.1: icmp_seq=817 ttl=64 time=2181 ms
+[2026-01-29 13:46:10.012217] 64 bytes from 172.16.0.1: icmp_seq=852 ttl=64 time=2545 ms
+[2026-01-29 13:46:11.674144] 64 bytes from 172.16.0.1: icmp_seq=861 ttl=64 time=2360 ms
+[2026-01-29 13:46:17.741852] 64 bytes from 172.16.0.1: icmp_seq=888 ttl=64 time=2872 ms
+[2026-01-29 13:46:19.261269] 64 bytes from 172.16.0.1: icmp_seq=894 ttl=64 time=3147 ms
+[2026-01-29 13:46:33.450886] 64 bytes from 172.16.0.1: icmp_seq=951 ttl=64 time=5626 ms
+[2026-01-29 13:47:21.564339] 64 bytes from 172.16.0.1: icmp_seq=1180 ttl=64 time=6678 ms

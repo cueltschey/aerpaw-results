@@ -1,0 +1,24 @@
+[2026-01-29 13:42:52.657522] [31m/opt/srsRAN/srsenb/src/enb_cfg_parser.cc:1885: Force DL freq for cell PCI=1 to 3409.999872 MHz[0m
+[2026-01-29 13:42:52.657603] [31m/opt/srsRAN/srsenb/src/enb_cfg_parser.cc:1889: Force UL freq for cell PCI=1 to 3320.000000 MHz[0m
+[2026-01-29 13:42:52.703373] [INFO] [UHD] linux; GNU C++ version 11.4.0; Boost_107400; UHD_4.3.0.HEAD-aerpaw
+[2026-01-29 13:42:52.703447] [INFO] [LOGGING] Fastpath logging disabled at runtime.
+[2026-01-29 13:42:52.704247] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-29 13:42:53.205947] [INFO] [UHD RF] RF UHD Generic instance constructed
+[2026-01-29 13:42:54.915918] [INFO] [CONFIG] Parsed 1 V-USRP devices from config file.
+[2026-01-29 13:42:54.916560] [INFO] [MULTI_USRP] Selecting default RX front end spec: Subdevice Specification:
+[2026-01-29 13:42:54.916654]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-29 13:42:54.916678] 
+[2026-01-29 13:42:54.930759] [INFO] [V-USRP-RX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-29 13:42:54.931073] [INFO] [MULTI_USRP] Selecting default TX front end spec: Subdevice Specification:
+[2026-01-29 13:42:54.931091]     Channel 0: Daughterboard A, Subdevice 0
+[2026-01-29 13:42:54.931102] 
+[2026-01-29 13:42:54.931266] [INFO] [V-USRP-TX]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-29 13:42:55.751857] [INFO] [V-USRP]  Sample Rate is set to 1.92e+06 Sps
+[2026-01-29 13:42:56.213671] [INFO] [V-USRP-RX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-29 13:42:56.214376] [INFO] [V-USRP-TX]  Sample Rate is set to 1.152e+07 Sps
+[2026-01-29 13:42:56.214867] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3409.999872 MHz is allowed for TX operation!
+[2026-01-29 13:42:56.233076] [INFO] [PORT-TX] Port is updated to 11001
+[2026-01-29 13:42:56.233207] [INFO] [PORT-TX] Port is updated to 11001
+[2026-01-29 13:42:56.234131] [INFO] [VUSRP-RX] Port is updated to 10001
+[2026-01-29 13:42:56.234440] [INFO] [AERPAW SPECTRUM POLICE] Requested frequency 3320.000000 MHz is allowed for RX operation!
+[2026-01-29 13:42:56.241791] [INFO] [V-USRP]  Sample Rate is set to 1.152e+07 Sps

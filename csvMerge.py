@@ -54,7 +54,10 @@ ts_max = min(ts1_max, ts2_max)
 
 ts = file1_df.index
 
-mergedDf = file1_df._append(file2_df, sort=True).sort_values(by='time')
+mergedDf = (
+    pd.concat([file1_df, file2_df])
+      .sort_values(by='time')
+)
 
 if args['format'] == 'i':
     # Performs interpolate on only the numeric columns to avoid exception by .interpolate()
