@@ -44,6 +44,19 @@ def fixPrefixes(value: str): # fixes the SI prefixes (e.g., k = 10^3)
         return str(valFloat)
     return(value)
 
+def normalize_bandwidth_to_mbits(value_str, unit):
+    val = float(value_str)
+
+    if unit == "bits/sec":
+        return val / 1e6
+    elif unit == "Kbits/sec":
+        return val / 1e3
+    elif unit == "Mbits/sec":
+        return val
+    else:
+        return val
+
+
 
 
 class LogParser:
@@ -224,6 +237,16 @@ class LogParser:
                     self.data["ID"].append(l.split("]")[1].split("[")[1].strip())
                     self.data["time"].append(ts)
 
+                    # Detect bandwidth unit BEFORE removing it
+                    bw_unit = None
+                    if "Mbits/sec" in dt:
+                        bw_unit = "Mbits/sec"
+                    elif "Kbits/sec" in dt:
+                        bw_unit = "Kbits/sec"
+                    elif "bits/sec" in dt:
+                        bw_unit = "bits/sec"
+
+
                     dt.remove("sec") if "sec" in dt else None
                     dt.remove("Mbits/sec") if "Mbits/sec" in dt else None
                     dt.remove("Kbits/sec") if "Kbits/sec" in dt else None
@@ -235,6 +258,14 @@ class LogParser:
                     dt.remove("KBytes") if "KBytes" in dt else None
                     dt.remove("Bytes") if "Bytes" in dt else None
                     dt.remove("Bytes") if "Bytes" in dt else None
+
+                    if len(dt) >= 7:
+                        self.data["Interval(sec)"].append(dt[0])
+                        self.data["Transfer(MBytes)"].append(dt[2])
+
+                        bw_mbits = normalize_bandwidth_to_mbits(dt[3], bw_unit)
+                        self.data["Bandwidth(MBits/sec)"].append(bw_mbits)
+                        continue
 
                     for index, j in enumerate(dt):
                         self.data[list(self.data.keys())[index+2]].append(j)
